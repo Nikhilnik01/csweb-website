@@ -1,0 +1,150 @@
+@import 'tailwindcss';
+
+/* Tailwind v4 defaults `dark:` to the `prefers-color-scheme` media query.
+   We control theme ourselves via a `.dark` class on <html> (see useTheme.ts),
+   so tell Tailwind to key the `dark:` variant off that class instead —
+   otherwise components using `dark:` utilities (Navbar, Sidebar) end up
+   following the OS/browser dark-mode setting instead of our toggle/default. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* ConstructAdmin design tokens — from _stitch_ref/DESIGN.md */
+  --color-primary: #003367;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #0b4a8c;
+  --color-on-primary-container: #92bbff;
+  --color-primary-fixed: #d5e3ff;
+  --color-primary-fixed-dim: #a8c8ff;
+
+  --color-secondary: #016e21;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #97f596;
+  --color-on-secondary-container: #0b7225;
+  --color-secondary-fixed: #99f899;
+  --color-secondary-fixed-dim: #7edb7f;
+
+  --color-tertiary: #572500;
+  --color-tertiary-container: #7a3700;
+  --color-tertiary-fixed: #ffdbc8;
+--color-tertiary-fixed-dim: #ffb68b;
+--color-on-tertiary-fixed: #321200;
+--color-on-tertiary-fixed-variant: #753400;
+  --color-on-tertiary-container: #ffa46c;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --color-background: #f8f9ff;
+  --color-on-background: #0b1c30;
+  --color-surface: #f8f9ff;
+  --color-on-surface: #0b1c30;
+  --color-on-surface-variant: #424750;
+  --color-surface-variant: #d3e4fe;
+  --color-surface-dim: #cbdbf5;
+  --color-surface-bright: #f8f9ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #eff4ff;
+  --color-surface-container: #e5eeff;
+  --color-surface-container-high: #dce9ff;
+  --color-surface-container-highest: #d3e4fe;
+  --color-surface-tint: #2b5fa2;
+
+  --color-inverse-surface: #213145;
+  --color-inverse-on-surface: #eaf1ff;
+  --color-inverse-primary: #a8c8ff;
+
+  --color-outline: #737782;
+  --color-outline-variant: #c2c6d2;
+
+  --spacing-sidebar-width: 280px;
+  --spacing-navbar-height: 64px;
+  --spacing-container-padding: 2rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-grid-gap: 1.5rem;
+  --spacing-stack-gap: 0.75rem;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Dark mode — navy construction palette (stitch inverse-surface) */
+.dark {
+  --color-primary: #a8c8ff;
+  --color-background: #0b1c30;
+  --color-on-background: #eaf1ff;
+  --color-surface: #0b1c30;
+  --color-on-surface: #eaf1ff;
+  --color-on-surface-variant: #c2c6d2;
+  --color-surface-bright: #152238;
+  --color-surface-container-lowest: #152238;
+  --color-surface-container-low: #213145;
+  --color-surface-container: #273550;
+  --color-surface-container-high: #2f3f5c;
+  --color-surface-container-highest: #3a4d6e;
+  --color-surface-variant: #424750;
+  --color-outline-variant: #424750;
+  --color-inverse-surface: #213145;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-background text-on-surface;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-outline-variant);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-outline);
+  }
+}
+
+/* Sidebar active link — 10% primary-container tint (stitch reference) */
+.nav-link-active {
+  background-color: color-mix(in srgb, var(--color-primary-container) 10%, transparent);
+  border-left: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.dark .nav-link-active {
+  color: var(--color-primary-fixed-dim);
+}
+
+.nav-link {
+  border-left: 2px solid transparent;
+  color: var(--color-on-surface-variant);
+}
+
+.nav-link:hover {
+  background-color: color-mix(in srgb, var(--color-primary-container) 5%, transparent);
+  color: var(--color-primary);
+}
+
+.dark .nav-link:hover {
+  color: var(--color-primary-fixed-dim);
+}
+
+.industrial-pattern {
+  background-color: var(--color-background);
+  background-image: radial-gradient(var(--color-outline-variant) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
