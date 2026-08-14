@@ -7,11 +7,7 @@ import {
   ShieldCheck,
   Download,
   Plus,
-  Info,
   ClipboardCheck,
-  Mail,
-  ShieldCheck as ShieldIcon,
-  Settings,
   Loader2,
   Activity,
   Users,
@@ -25,15 +21,6 @@ import { ApiError } from '@/lib/apiResponse'
 
 const KPI_ICONS = [CalendarDays, PoundSterling, BookOpen, ShieldCheck, ClipboardCheck, Users, TrendingUp, Activity]
 
-const WEEKLY_TRENDS = [
-  { day: 'Mon', height: 40 },
-  { day: 'Tue', height: 65 },
-  { day: 'Wed', height: 55 },
-  { day: 'Thu', height: 90, highlight: true },
-  { day: 'Fri', height: 75 },
-  { day: 'Sat', height: 30 },
-  { day: 'Sun', height: 20 },
-]
 
 // Maps a KPI card's data key to the admin route it should open.
 // Keys are matched case-insensitively against the field name returned by the Dashboard API.
@@ -46,12 +33,6 @@ const KPI_ROUTES: Record<string, string> = {
   bookingcardtypes: '/admin/booking-card-types',
 }
 
-const QUICK_ACTIONS = [
-  { label: 'Assign Module', icon: ClipboardCheck },
-  { label: 'Email Users', icon: Mail },
-  { label: 'Review Certs', icon: ShieldIcon },
-  { label: 'Site Config', icon: Settings },
-]
 
 function formatLabel(key: string): string {
   return key
@@ -73,7 +54,6 @@ export default function Dashboard() {
   const [summary, setSummary] = useState<Record<string, unknown> | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [trendsRange, setTrendsRange] = useState<'7' | '30'>('7')
   const [toast, setToast] = useState<string | null>(null)
 
   const loadSummary = useCallback(async () => {
@@ -126,12 +106,6 @@ export default function Dashboard() {
     showToast('New Booking flow coming soon.')
   }, [showToast])
 
-  const handleQuickAction = useCallback(
-    (label: string) => {
-      showToast(`${label} — coming soon.`)
-    },
-    [showToast],
-  )
 
   const handleKpiClick = useCallback(
     (key: string, value: unknown) => {
@@ -253,79 +227,7 @@ export default function Dashboard() {
             </section>
           ))}
 
-          {/* Trends + Quick Actions (illustrative — not tied to a specific API field) */}
-          {/* <div className="mb-8 grid grid-cols-1 gap-[var(--spacing-grid-gap)] lg:grid-cols-12">
-            <section className="rounded-xl border border-outline-variant bg-surface-container-lowest p-6 lg:col-span-8">
-              <div className="mb-6 flex items-center justify-between">
-                <h3 className="text-lg font-semibold text-primary">Weekly Booking Trends</h3>
-                <select
-                  value={trendsRange}
-                  onChange={(e) => {
-                    const value = e.target.value as '7' | '30'
-                    setTrendsRange(value)
-                    showToast(`Showing last ${value} days.`)
-                  }}
-                  className="rounded-lg border border-outline-variant bg-transparent px-2 py-1 text-sm text-on-surface-variant"
-                >
-                  <option value="7">Last 7 Days</option>
-                  <option value="30">Last 30 Days</option>
-                </select>
-              </div>
-              <div className="flex h-64 items-end justify-between gap-4 px-2">
-                {WEEKLY_TRENDS.map(({ day, height, highlight }) => (
-                  <button
-                    key={day}
-                    type="button"
-                    onClick={() => showToast(`${day}: ${height}% of weekly peak`)}
-                    className="flex flex-1 flex-col items-center gap-2"
-                  >
-                    <div
-                      className={`w-full rounded-t-lg transition-all duration-500 ${
-                        highlight
-                          ? 'bg-primary-container'
-                          : 'bg-surface-container-high hover:bg-primary-container'
-                      }`}
-                      style={{ height: `${height}%` }}
-                    />
-                    <span
-                      className={`text-xs text-on-surface-variant ${highlight ? 'font-bold' : ''}`}
-                    >
-                      {day}
-                    </span>
-                  </button>
-                ))}
-              </div>
-            </section>
 
-            <section className="rounded-xl border border-outline-variant bg-surface-container-lowest p-6 lg:col-span-4">
-              <h3 className="mb-6 text-lg font-semibold text-primary">Quick Actions</h3>
-              <div className="grid grid-cols-2 gap-4">
-                {QUICK_ACTIONS.map(({ label, icon: Icon }) => (
-                  <button
-                    key={label}
-                    type="button"
-                    onClick={() => handleQuickAction(label)}
-                    className="group flex flex-col items-center justify-center rounded-xl border border-outline-variant p-4 transition-all hover:border-primary hover:bg-primary/5"
-                  >
-                    <Icon
-                      className="mb-2 h-5 w-5 text-primary transition-transform group-hover:scale-110"
-                      strokeWidth={1.5}
-                    />
-                    <span className="text-center text-xs text-on-surface-variant">{label}</span>
-                  </button>
-                ))}
-              </div>
-              <div className="mt-6 rounded-xl border border-dashed border-outline bg-surface-container-low p-4">
-                <div className="mb-2 flex items-center gap-3">
-                  <Info className="h-5 w-5 text-primary" strokeWidth={1.5} />
-                  <p className="text-sm font-medium text-primary">System Notice</p>
-                </div>
-                <p className="text-sm text-on-surface-variant">
-                  Monthly server maintenance scheduled for Sunday at 02:00 AM UTC.
-                </p>
-              </div>
-            </section>
-          </div> */}
         </>
       )}
     </div>
