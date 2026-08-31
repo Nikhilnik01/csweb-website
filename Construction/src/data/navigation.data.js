@@ -108,21 +108,21 @@ export const NAV_ITEMS = [
   },
   {
     label: "CITB HS&E Test",
-    href: "/citb",
+    href: "/book-citb-test",
     hasMega: true,
     megaSections: [
       {
         heading: "CITB HS&E Test",
         color: "text-blue-700",
         links: [
-          { label: "CITB HS&E Test for Operatives", href: "/citb" },
-          { label: "CITB HS&E Test for Specialists", href: "/citb" },
+          { label: "CITB HS&E Test for Operatives", href: "/book-citb-test" },
+          { label: "CITB HS&E Test for Specialists", href: "/book-citb-test" },
           {
             label: "CITB HS&E Test for Managers & Professionals",
-            href: "/citb",
+            href: "/book-citb-test",
           },
-          { label: "CITB HS&E Test for Supervisors", href: "/citb" },
-          { label: "Book CITB HS&E Test", href: "/citb" },
+          { label: "CITB HS&E Test for Supervisors", href: "/book-citb-test" },
+          { label: "Book CITB HS&E Test", href: "/book-citb-test" },
           { label: "Which Test Do I Need?", href: "/which-test" },
         ],
       },
@@ -132,14 +132,14 @@ export const NAV_ITEMS = [
         heading: "CITB HS&E Test",
         color: "text-blue-700",
         links: [
-          { label: "CITB HS&E Test for Operatives", href: "/citb" },
-          { label: "CITB HS&E Test for Specialists", href: "/citb" },
+          { label: "CITB HS&E Test for Operatives", href: "/book-citb-test" },
+          { label: "CITB HS&E Test for Specialists", href: "/book-citb-test" },
           {
             label: "CITB HS&E Test for Managers & Professionals",
-            href: "/citb",
+            href: "/book-citb-test",
           },
-          { label: "CITB HS&E Test for Supervisors", href: "/citb" },
-          { label: "Book CITB HS&E Test", href: "/citb" },
+          { label: "CITB HS&E Test for Supervisors", href: "/book-citb-test" },
+          { label: "Book CITB HS&E Test", href: "/book-citb-test" },
           { label: "Which Test Do I Need?", href: "/which-test" },
         ],
       },
@@ -147,34 +147,34 @@ export const NAV_ITEMS = [
   },
   {
     label: "Courses",
-    href: "/course-list",
+    href: "/courses",
     hasMega: true,
     megaSections: [
       {
         heading: "Courses",
         color: "text-blue-700",
         links: [
-          { label: "All Courses", href: "/course-list" },
+          { label: "All Courses", href: "/courses" },
           {
             label: "CSCS Green Card",
-            href: "/course-list/cscs-green-card",
+            href: "/courses/cscs-green-card",
           },
-          { label: "SSSTS Course", href: "/course-list/sssts" },
+          { label: "SSSTS Course", href: "/courses/sssts" },
 
           {
             label: "SSSTS Refresher Course",
-            href: "/course-list/sssts-refresher",
+            href: "/courses/sssts-refresher",
           },
 
-          { label: "SMSTS Course", href: "/course-list/smsts" },
+          { label: "SMSTS Course", href: "/courses/smsts" },
           {
             label: "SMSTS Refresher Course",
-            href: "/course-list/smsts-refresher",
+            href: "/courses/smsts-refresher",
           },
 
           {
             label: "Traffic Banksman",
-            href: "/course-list/traffic-banksman",
+            href: "/courses/traffic-banksman",
           },
         ],
       },
@@ -184,27 +184,27 @@ export const NAV_ITEMS = [
         heading: "Courses",
         color: "text-blue-700",
         links: [
-          { label: "All Courses", href: "/course-list" },
+          { label: "All Courses", href: "/courses" },
           {
             label: "CSCS Green Card",
-            href: "/course-list/cscs-green-card",
+            href: "/courses/cscs-green-card",
           },
-          { label: "SSSTS Course", href: "/course-list/sssts" },
+          { label: "SSSTS Course", href: "/courses/sssts" },
 
           {
             label: "SSSTS Refresher Course",
-            href: "/course-list/sssts-refresher",
+            href: "/courses/sssts-refresher",
           },
 
-          { label: "SMSTS Course", href: "/course-list/smsts" },
+          { label: "SMSTS Course", href: "/courses/smsts" },
           {
             label: "SMSTS Refresher Course",
-            href: "/course-list/smsts-refresher",
+            href: "/courses/smsts-refresher",
           },
 
           {
             label: "Traffic Banksman",
-            href: "/course-list/traffic-banksman",
+            href: "/courses/traffic-banksman",
           },
         ],
       },
@@ -282,7 +282,7 @@ export const NAV_ITEMS = [
   },
   {
     label: "Contact",
-    href: "/contact",
+    href: "/contact-us",
     hasMega: false,
   },
 ];
@@ -299,6 +299,6 @@ export const TOP_BAR = {
   bookingBanner: {
     text: "Book Today | Available tomorrow",
     ctaLabel: "Book Now",
-    ctaHref: "/citb",
+    ctaHref: "/book-citb-test",
   },
 };

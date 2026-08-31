@@ -45,7 +45,7 @@ const CTAButtons = () => (
       Apply for CSCS Card
     </Link>
     <Link
-      to="/citb"
+      to="/book-citb-test"
       className="inline-flex items-center justify-center rounded-lg border border-blue-600 px-5 sm:px-6 py-2.5 sm:py-3 font-semibold text-blue-600 hover:bg-blue-50 text-sm"
     >
       Book CITB Test
@@ -220,11 +220,11 @@ useEffect(() => {
 
   const quickLinks = [
     { label: "Apply for CSCS Card", href: "/cscs-cards" },
-    { label: "Book CITB Test", href: "/citb" },
+    { label: "Book CITB Test", href: "/book-citb-test" },
     { label: "NVQ Training", href: "/training" },
-    { label: "Construction Courses", href: "/course-list" },
+    { label: "Construction Courses", href: "/courses" },
     { label: "Which Test Do I Need?", href: "/which-test" },
-    { label: "Contact Us", href: "/contact" },
+    { label: "Contact Us", href: "/contact-us" },
   ];
 
   return (

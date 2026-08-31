@@ -162,7 +162,7 @@ const CoursesPage = () => {
   const [courses, setCourses] = useState(staticCourses);
 
   const handleCardClick = (courseId) => {
-    navigate(`/course-list/${courseId}`);
+    navigate(`/courses/${courseId}`);
   };
 
   useEffect(() => {

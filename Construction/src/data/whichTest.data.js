@@ -6,7 +6,7 @@ export const WHICH_TEST_PAGE = {
     subheading:
       "Not sure which CITB Health, Safety & Environment Test you need to book? Use this guide to find the right test for your role and CSCS card.",
     ctaLabel: "Book Your Test",
-    ctaHref: "/citb",
+    ctaHref: "/book-citb-test",
   },
 
   overview: {
@@ -45,7 +45,7 @@ export const WHICH_TEST_PAGE = {
       passScore: "45/50 (90%)",
       languages: "Available in 25+ languages",
       ctaLabel: "Book Operatives Test",
-      ctaHref: "/citb",
+      ctaHref: "/book-citb-test",
     },
     {
       id: "specialists",
@@ -87,7 +87,7 @@ export const WHICH_TEST_PAGE = {
       passScore: "45/50 (90%)",
       languages: "English only",
       ctaLabel: "Book Specialists Test",
-      ctaHref: "/citb",
+      ctaHref: "/book-citb-test",
     },
     {
       id: "supervisors",
@@ -109,7 +109,7 @@ export const WHICH_TEST_PAGE = {
       passScore: "45/50 (90%)",
       languages: "English only",
       ctaLabel: "Book Supervisors Test",
-      ctaHref: "/citb",
+      ctaHref: "/book-citb-test",
     },
     {
       id: "managers",
@@ -132,7 +132,7 @@ export const WHICH_TEST_PAGE = {
       passScore: "45/50 (90%)",
       languages: "English only",
       ctaLabel: "Book Managers Test",
-      ctaHref: "/citb",
+      ctaHref: "/book-citb-test",
     },
   ],
 

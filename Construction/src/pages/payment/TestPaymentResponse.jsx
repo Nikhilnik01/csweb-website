@@ -54,7 +54,7 @@ const TestPaymentResponse = () => {
   };
 
   const handleViewTests = () => {
-    navigate("/citb");
+    navigate("/book-citb-test");
   };
 
   if (loading) {

@@ -65,11 +65,11 @@ const CoursePaymentResponse = () => {
   };
 
   const handleViewCourses = () => {
-    navigate("/course-list");
+    navigate("/courses");
   };
 
   const handleRetryPayment = () => {
-    navigate("/course-list");
+    navigate("/courses");
   };
 
   if (paymentStatus === "loading") {

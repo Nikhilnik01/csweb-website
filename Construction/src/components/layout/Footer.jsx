@@ -69,18 +69,18 @@ const FooterCol = ({ heading, links }) => (
 // ---------------------------------------------------------------------------
 
 const DEFAULT_COURSE_LINKS = [
-  { label: "CSCS Green Card", href: "/course-list/cscs-green-card" },
-  { label: "SSSTS Course", href: "/course-list/sssts" },
-  { label: "SSSTS Refresher Course", href: "/course-list/sssts-refresher" },
-  { label: "SMSTS Course", href: "/course-list/smsts" },
-  { label: "SMSTS Refresher Course", href: "/course-list/smsts-refresher" },
-  { label: "Traffic Banksman", href: "/course-list/traffic-banksman" },
+  { label: "CSCS Green Card", href: "/courses/cscs-green-card" },
+  { label: "SSSTS Course", href: "/courses/sssts" },
+  { label: "SSSTS Refresher Course", href: "/courses/sssts-refresher" },
+  { label: "SMSTS Course", href: "/courses/smsts" },
+  { label: "SMSTS Refresher Course", href: "/courses/smsts-refresher" },
+  { label: "Traffic Banksman", href: "/courses/traffic-banksman" },
 ];
 
 const DEFAULT_CITB_LINKS = [
-  { label: "CITB HS&E Test for Operatives", href: "/citb" },
-  { label: "CITB HS&E Test for Specialists", href: "/citb" },
-  { label: "Managers & Professionals Test", href: "/citb" },
+  { label: "CITB HS&E Test for Operatives", href: "/book-citb-test" },
+  { label: "CITB HS&E Test for Specialists", href: "/book-citb-test" },
+  { label: "Managers & Professionals Test", href: "/book-citb-test" },
   { label: "CITB HS&E Test Centre", href: "/test-center" },
   { label: "Why CITB HS&E Test?", href: "/which-test" },
 ];
@@ -157,7 +157,7 @@ const getCourseLinkLabel = (course) =>
 const getCourseLinkHref = (course) => {
   const identifier =
     course.slug || course.id || course.courseDeliveryTypeId || course.courseId;
-  return `/course-list/${identifier}`;
+  return `/courses/${identifier}`;
 };
 
 const buildCourseFooterLinks = (courses) =>
@@ -173,7 +173,7 @@ const buildCitbFooterLinks = (tests) =>
     .filter((t) => t.isActive)
     .map((t) => ({
       label: t.testName,
-      href: `/citb?testId=${t.id}`,
+      href: `/book-citb-test?testId=${t.id}`,
     }));
 
 const extractListFromResponse = (response) => {
@@ -259,7 +259,7 @@ const Footer = () => {
     heading: "Services",
     links: [
       { label: "CSCS Construction Courses", href: "/cscs-cards" },
-      { label: "CITB HS&E Test", href: "/citb" },
+      { label: "CITB HS&E Test", href: "/book-citb-test" },
       { label: "CSCS Card", href: "/cscs-cards" },
       { label: "CPCS Training", href: "/cpcs" },
       { label: "NVQ Courses", href: "/training" },
@@ -273,8 +273,8 @@ const Footer = () => {
       { label: "Refund Policy", href: "/terms" },
       { label: "Privacy Policy", href: "/terms" },
       { label: "Terms & Conditions", href: "/terms" },
-      { label: "Book Now", href: "/citb" },
-      { label: "Contact", href: "/contact" },
+      { label: "Book Now", href: "/book-citb-test" },
+      { label: "Contact", href: "/contact-us" },
       { label: "Find & Book CSCS Card Online", href: "/cscs-cards" },
     ],
   };

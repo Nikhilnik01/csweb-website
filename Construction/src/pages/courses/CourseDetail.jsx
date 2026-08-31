@@ -129,7 +129,7 @@ const apiId = COURSE_API_IDS[id] || id;
             The requested course could not be found.
           </p>
           <button
-            onClick={() => navigate("/course-list")}
+            onClick={() => navigate("/courses")}
             className="px-6 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold"
           >
             ← Back to Courses
@@ -150,7 +150,7 @@ const apiId = COURSE_API_IDS[id] || id;
       <div className="bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
           <button
-            onClick={() => navigate("/course-list")}
+            onClick={() => navigate("/courses")}
             className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-3 font-medium text-sm"
           >
             <svg

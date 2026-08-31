@@ -51,13 +51,13 @@ function AppRoutes() {
             <Route path="/cscs-cards/:cardId" element={<CscsCardDetail />} />
             <Route path="/cscs-card-form/:cardId" element={<CscsCardForm />} />
 
-            <Route path="/citb" element={<CitbTest />} />
-            <Route path="/citb-bulk-test" element={<BulkTestBooking />} />
+            <Route path="/book-citb-test" element={<CitbTest />} />
+            <Route path="/book-bulk-citb-test" element={<BulkTestBooking />} />
             <Route path="/which-test" element={<WhichTest />} />
             <Route path="/test-center" element={<TestCenter />} />
 
-            <Route path="/course-list" element={<CoursesPage />} />
-            <Route path="/course-list/:id" element={<CourseDetail />} />
+            <Route path="/courses" element={<CoursesPage />} />
+            <Route path="/courses/:id" element={<CourseDetail />} />
             <Route path="/course-booking" element={<CourseBooking />} />
 
             <Route path="/training" element={<TrainingPage />} />
@@ -70,8 +70,8 @@ function AppRoutes() {
             <Route path="/blogs" element={<BlogsPage />} />
             <Route path="/blog/:id" element={<BlogDetail />} />
 
-            <Route path="/faq" element={<Faqs />} />
-            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/faqs" element={<Faqs />} />
+            <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/terms" element={<Terms />} />
 
             <Route path="/response" element={<PaymentResponse />} />

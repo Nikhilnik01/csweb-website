@@ -153,7 +153,7 @@ const CscsCardDetail = () => {
                   </Link>
 
                   <Link
-                    to="/citb"
+                    to="/book-citb-test"
                     className="flex w-full items-center justify-center gap-1.5 rounded-lg bg-blue-600 px-3 py-2.5 text-xs sm:text-sm font-bold text-white transition-colors hover:bg-blue-700"
                   >
                     <span>Book CITB Test</span>
@@ -193,7 +193,7 @@ const CscsCardDetail = () => {
               <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {/* BOOK NOW */}
                 <a
-                  href="/citb"
+                  href="/book-citb-test"
                   className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition-all active:scale-95 shadow-md"
                 >
                   Click BOOK NOW

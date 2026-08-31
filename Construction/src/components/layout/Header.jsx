@@ -237,7 +237,7 @@ const MobileMenu = ({ items, onClose }) => {
       {/* Bottom CTA */}
       <div className="px-4 py-4 border-t border-gray-200 bg-gray-50">
         <Link
-          to="/citb"
+          to="/book-citb-test"
           onClick={onClose}
           className="block w-full text-center bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700"
         >
@@ -375,14 +375,14 @@ const buildCitbTestMenuSections = (tests) => {
     .filter((t) => t.isActive)
     .map((t) => ({
       label: t.testName,
-      href: `/citb?testId=${t.id}`,
+      href: `/book-citb-test?testId=${t.id}`,
     }));
 
   return [
     {
       heading: "CITB Tests",
       color: "text-blue-700",
-      links: [{ label: "Book a CITB Test", href: "/citb" }, ...links],
+      links: [{ label: "Book a CITB Test", href: "/book-citb-test" }, ...links],
     },
   ];
 };
@@ -413,7 +413,7 @@ const getCourseLinkLabel = (course) =>
 const getCourseLinkHref = (course) => {
   const identifier =
     course.slug || course.id || course.courseDeliveryTypeId || course.courseId;
-  return `/course-list/${identifier}`;
+  return `/courses/${identifier}`;
 };
 
 const buildCourseMenuSections = (courses) => {
@@ -428,7 +428,7 @@ const buildCourseMenuSections = (courses) => {
     {
       heading: "Courses",
       color: "text-blue-700",
-      links: [{ label: "All Courses", href: "/course-list" }, ...links],
+      links: [{ label: "All Courses", href: "/courses" }, ...links],
     },
   ];
 };
@@ -572,7 +572,7 @@ const Header = () => {
             </nav>
 
             <Link
-              to="/citb-bulk-test"
+              to="/book-bulk-citb-test"
               className="hidden lg:inline-flex items-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors whitespace-nowrap"
             >
               Group Booking <span aria-hidden>→</span>

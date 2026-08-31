@@ -34,7 +34,7 @@ const HeroSection = ({ data, id }) => {
             </h2>
 
             <div className="flex flex-col gap-2 mb-2 w-full md:flex-row md:gap-4 md:mb-6">
-              <Link to="/citb" className="w-full md:w-auto">
+              <Link to="/book-citb-test" className="w-full md:w-auto">
                 <Button
                   className="
         bg-blue-600

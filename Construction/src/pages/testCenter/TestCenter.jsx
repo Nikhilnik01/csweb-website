@@ -93,7 +93,7 @@ const TestCenter = () => {
             Fast, secure booking online. Available at test centres across the UK.
           </p>
           <Link
-            to="/citb"
+            to="/book-citb-test"
             className="inline-block bg-white text-blue-700 font-bold px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors"
           >
             Book CITB Test Now

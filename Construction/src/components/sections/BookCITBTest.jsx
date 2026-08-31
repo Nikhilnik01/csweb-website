@@ -72,7 +72,7 @@ const BookCITBTest = ({ id, data }) => {
               ))}
             </div>
 
-            <Link to="/citb">
+            <Link to="/book-citb-test">
               <Button withArrow className="w-full">
                 Book Now
               </Button>
