@@ -70,6 +70,16 @@ function AppRoutes() {
             <Route path="/blogs" element={<BlogsPage />} />
             <Route path="/blog/:id" element={<BlogDetail />} />
 
+            {/* SEO Mapped Blog Routes */}
+            <Route path="/citb-test-online-for-cscs-card" element={<BlogDetail />} />
+            <Route path="/citb-test-booking-guide" element={<BlogDetail />} />
+            <Route path="/citb-test-requirements" element={<BlogDetail />} />
+            <Route path="/citb-test-for-cscs-card" element={<BlogDetail />} />
+            <Route path="/cscs-card-application-guide" element={<BlogDetail />} />
+            <Route path="/citb-health-safety-environment-test" element={<BlogDetail />} />
+            <Route path="/how-to-pass-citb-test" element={<BlogDetail />} />
+            <Route path="/citb-test-faqs" element={<BlogDetail />} />
+
             <Route path="/faqs" element={<Faqs />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/terms" element={<Terms />} />

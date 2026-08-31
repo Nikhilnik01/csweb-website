@@ -6,6 +6,7 @@ import SeoHead from "../../components/common/SeoHead";
 // import PageHeader from "../../components/common/PageHeader";
 import blogsData from "../../data/blogs.data";
 import { fetchAllBlogs } from "../../api/blogApi";
+import { getBlogHref } from "../../utils/blogUrls";
 
 const CATEGORIES = [
   "All",
@@ -44,7 +45,7 @@ const BlogCard = ({ blog }) => {
 
   return (
     <article className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group">
-      <Link to={`/blog/${blog.slug || blog.id}`} className="block">
+      <Link to={getBlogHref(blog)} className="block">
         <div className="relative overflow-hidden bg-[#dce8f5]">
           <img
             src={blogImage}
@@ -65,19 +66,19 @@ const BlogCard = ({ blog }) => {
           <span>•</span>
           <span>{blog.readTime || "5 min read"}</span>
         </div>
-        <Link to={`/blog/${blog.slug || blog.id}`}>
+        <Link to={getBlogHref(blog)}>
           <h2 className="font-bold text-gray-900 text-base leading-snug mb-2 hover:text-blue-600 transition-colors line-clamp-2">
             {blog.title}
           </h2>
         </Link>
-     <p className="text-gray-500 text-sm leading-relaxed mb-4">
-  {blog.blogContent
-    ? getBlogPreview(blog.blogContent, 20)
-    : "Click to read more..."}
-</p>
+        <p className="text-gray-500 text-sm leading-relaxed mb-4">
+          {blog.blogContent
+            ? getBlogPreview(blog.blogContent, 20)
+            : "Click to read more..."}
+        </p>
         <div className="pt-3 border-t border-gray-100">
           <Link
-            to={`/blog/${blog.slug || blog.id}`}
+            to={getBlogHref(blog)}
             className="inline-flex items-center gap-1 text-blue-600 text-sm font-semibold hover:underline"
           >
             Read More →

@@ -1,11 +1,12 @@
 // src/pages/blogs/BlogDetail.jsx
 
 import { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate, useLocation } from "react-router-dom";
 import { FaUser, FaCalendarAlt, FaClock } from "react-icons/fa";
 import SeoHead from "../../components/common/SeoHead";
 import blogsData from "../../data/blogs.data";
-import { fetchBlogById, fetchAllBlogs } from "../../api/blogApi";
+import { fetchAllBlogs } from "../../api/blogApi";
+import { getBlogHref, SEO_BLOG_SLUGS, getBlogSlug } from "../../utils/blogUrls";
 
 /* ====================== SHARED UI ====================== */
 
@@ -109,11 +110,30 @@ const NotFoundState = () => (
 
 /* ====================== MAIN ====================== */
 
-const BlogDetail = () => {
-  const { id } = useParams();
+const BlogDetail = ({ id: propId }) => {
+  const { id: paramId } = useParams();
+  const { pathname } = useLocation();
+  const navigate = useNavigate();
+
+  // Extract pathSlug (remove leading slash)
+  const pathSlug = pathname.substring(1);
+  const isSeoPath = SEO_BLOG_SLUGS.includes(pathSlug);
+
+  const id = propId || (isSeoPath ? pathSlug : paramId);
+
   const [blog, setBlog] = useState(null);
   const [related, setRelated] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  // Auto redirect /blog/:id to SEO-friendly path if the loaded blog's slug matches mapped slugs
+  useEffect(() => {
+    if (blog && paramId) {
+      const slug = getBlogSlug(blog);
+      if (SEO_BLOG_SLUGS.includes(slug)) {
+        navigate(`/${slug}`, { replace: true });
+      }
+    }
+  }, [blog, paramId, navigate]);
 
 
 
@@ -133,7 +153,10 @@ useEffect(() => {
         if (!isMounted) return;
 
         const apiBlog = allBlogs.find(
-          (b) => String(b.id) === String(id) || b.slug === id,
+          (b) =>
+            String(b.id) === String(id) ||
+            b.slug === id ||
+            getBlogSlug(b) === id,
         );
 
         if (apiBlog) {
@@ -349,7 +372,7 @@ useEffect(() => {
                   {related.map((r) => (
                     <li key={r.id}>
                       <Link
-                        to={`/blog/${r.slug || r.id}`}
+                        to={getBlogHref(r)}
                         className="flex gap-2 hover:opacity-80 transition"
                       >
                         <div className="w-12 h-8 bg-gray-100 rounded overflow-hidden flex-shrink-0">

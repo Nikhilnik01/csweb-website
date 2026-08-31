@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Clock, ArrowRight } from "lucide-react";
 import blogsData from "../../data/blogs.data";
 import { fetchAllBlogs } from "../../api/blogApi";
+import { getBlogHref } from "../../utils/blogUrls";
 
 // Same 20-word first-paragraph preview logic used on the full Blogs page,
 // so the homepage cards read consistently with /blogs.
@@ -94,7 +95,7 @@ const Blog = () => {
               {posts.map((post) => (
                 <Link
                   key={post.id}
-                  to={`/blog/${post.slug}`}
+                  to={getBlogHref(post)}
                   className="group flex flex-col bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden hover:shadow-xl hover:-translate-y-2 transition-all duration-300 h-full"
                 >
                   {/* Image Container - Height adjusted to give image text breathing room */}
