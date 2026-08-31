@@ -52,10 +52,10 @@ const CTAButtons = () => (
       Book CITB Test
     </Link>
     <a
-      href="tel:03333440036"
+      href="tel:+447856423532"
       className="inline-flex items-center justify-center rounded-lg bg-slate-900 px-5 sm:px-6 py-2.5 sm:py-3 font-semibold text-white hover:bg-slate-800 text-sm"
     >
-      Call 0333 344 0036
+      Call +44 7856 423532
     </a>
   </div>
 );

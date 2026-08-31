@@ -113,7 +113,7 @@ const FAQList = ({ items }) => {
 
 const CTAButtons = ({
   primary = "Book Now",
-  secondary = "Call 0333 344 0036",
+  secondary = "Call +44 7856 423532",
   bookingState,
 }) => (
   <div className="flex flex-col gap-2 sm:flex-row">
@@ -125,7 +125,7 @@ const CTAButtons = ({
       {primary}
     </Link>
     <a
-      href="tel:03333440036"
+      href="tel:+447856423532"
       className="inline-flex items-center justify-center rounded-lg border border-blue-600 px-6 py-2.5 font-semibold text-blue-600 transition-colors hover:bg-blue-50 text-sm sm:text-base"
     >
       {secondary}
@@ -212,7 +212,7 @@ const renderOverviewContent = (bookingState) => [
         ))}
         <CTAButtons
           primary="BOOK NOW"
-          secondary="Call 0333 344 0036"
+          secondary="Call +44 7856 423532"
           bookingState={bookingState}
         />
       </SectionCard>
@@ -336,7 +336,7 @@ const renderOverviewContent = (bookingState) => [
         </p>
         <CTAButtons
           primary={nvqOverview.cta2?.split(" or ")[0] || "BOOK NOW"}
-          secondary="Call 0333 344 0036"
+          secondary="Call +44 7856 423532"
           bookingState={bookingState}
         />
       </SectionCard>
@@ -428,7 +428,7 @@ const renderLevel2Content = (bookingState) => {
           </p>
           <CTAButtons
             primary={course.cta?.split(" or ")[0] || "BOOK COURSE"}
-            secondary="Call 0333 344 0036"
+            secondary="Call +44 7856 423532"
             bookingState={bookingState}
           />
         </SectionCard>
@@ -446,7 +446,7 @@ const renderLevel2Content = (bookingState) => {
         <BulletList items={nvqLevel2.nextSteps} />
         <CTAButtons
           primary={nvqLevel2.cta?.split(" or ")[0] || "START YOUR NVQ"}
-          secondary="Call 0333 344 0036"
+          secondary="Call +44 7856 423532"
           bookingState={bookingState}
         />
       </SectionCard>
@@ -506,7 +506,7 @@ const renderLevel2Content = (bookingState) => {
         <p className="mt-2 font-semibold text-black">{nvqLevel2.bookingText}</p>
         <CTAButtons
           primary={nvqLevel2.bookingCta?.split(" or ")[0] || "BOOK YOUR NVQ"}
-          secondary="Call 0333 344 0036"
+          secondary="Call +44 7856 423532"
           bookingState={bookingState}
         />
         <p className="mt-5 text-xs text-blue-200">{nvqLevel2.bookingFooter}</p>
@@ -533,7 +533,7 @@ const renderLevel3Content = (bookingState) => {
         ))}
         <CTAButtons
           primary="BOOK NOW"
-          secondary="Call 0333 344 0036"
+          secondary="Call +44 7856 423532"
           bookingState={bookingState}
         />
       </SectionCard>
@@ -714,7 +714,7 @@ const renderLevel3Content = (bookingState) => {
         </p>
         <CTAButtons
           primary={nvqLevel3.cta2?.split(" or ")[0] || "BOOK LEVEL 3 NVQ"}
-          secondary="Call 0333 344 0036"
+          secondary="Call +44 7856 423532"
           bookingState={bookingState}
         />
       </SectionCard>
@@ -740,7 +740,7 @@ const renderLevel4Content = (bookingState) => {
         ))}
         <CTAButtons
           primary="BOOK NOW"
-          secondary="Call 0333 344 0036"
+          secondary="Call +44 7856 423532"
           bookingState={bookingState}
         />
       </SectionCard>
@@ -939,7 +939,7 @@ const renderLevel4Content = (bookingState) => {
         </p>
         <CTAButtons
           primary={nvqLevel4.cta2?.split(" or ")[0] || "BOOK LEVEL 4 NVQ"}
-          secondary="Call 0333 344 0036"
+          secondary="Call +44 7856 423532"
           bookingState={bookingState}
         />
       </SectionCard>
@@ -965,7 +965,7 @@ const renderLevel7Content = (bookingState) => {
         ))}
         <CTAButtons
           primary="BOOK NOW"
-          secondary="Call 0333 344 0036"
+          secondary="Call +44 7856 423532"
           bookingState={bookingState}
         />
       </SectionCard>
@@ -1284,7 +1284,7 @@ const renderLevel7Content = (bookingState) => {
         </p>
         <CTAButtons
           primary={nvqLevel7.cta2?.split(" or ")[0] || "CONTACT US NOW"}
-          secondary="Call 0333 344 0036"
+          secondary="Call +44 7856 423532"
           bookingState={bookingState}
         />
         <p className="mt-5 text-xs text-blue-200">{nvqLevel7.footer}</p>

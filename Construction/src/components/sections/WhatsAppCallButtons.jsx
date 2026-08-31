@@ -1,7 +1,7 @@
 // src/components/sections/WhatsAppCallButtons.jsx
 
 const WhatsAppCallButtons = ({
-  phone = "03333440036",
+  phone = "+447856423532",
   whatsapp = "+447856423532",
 }) => {
   const waNumber = whatsapp.replace(/\D/g, "");

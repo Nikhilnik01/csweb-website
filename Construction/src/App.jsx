@@ -108,7 +108,7 @@ function AppRoutes() {
           <CscsBottomBanner />
         </div>
         <Footer />
-        <WhatsAppCallButtons phone="03333440036" whatsapp="03333440036" />
+        <WhatsAppCallButtons phone="+447856423532" whatsapp="+447856423532" />
       </div>
       </NavigationDataProvider>
     </BrowserRouter>

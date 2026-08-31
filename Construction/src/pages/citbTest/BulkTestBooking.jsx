@@ -293,7 +293,7 @@ const BulkTestBooking = () => {
       }
     } catch (e) {
       console.error(e);
-      alert("Booking failed. Please try again or call 0333 344 0036.");
+      alert("Booking failed. Please try again or call +44 7856 423532.");
     } finally {
       setLoading(false);
     }
@@ -512,7 +512,7 @@ const BulkTestBooking = () => {
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="tel:03333440036"
+                href="tel:+447856423532"
                 className="inline-flex items-center justify-center gap-2 bg-green-50 border border-green-200 text-blue-700 px-6 py-2.5 rounded-lg font-semibold hover:bg-green-100 transition-colors text-sm"
               >
                 <svg
@@ -528,7 +528,7 @@ const BulkTestBooking = () => {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                0333 344 0036
+                +44 7856 423532
               </a>
               <button
                 onClick={() => navigate("/")}

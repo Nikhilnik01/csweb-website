@@ -34,10 +34,10 @@ const TrainingPage = () => {
               Book Now
             </Link>
             <a
-              href="tel:03333440036"
+              href="tel:+447856423532"
               className="inline-flex items-center justify-center rounded-lg border border-blue-600 px-6 py-3 font-semibold text-blue-600 transition-colors hover:bg-blue-50"
             >
-              Call 0333 344 0036
+              Call +44 7856 423532
             </a>
           </div>
         </div>

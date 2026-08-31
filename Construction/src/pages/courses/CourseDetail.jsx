@@ -45,11 +45,11 @@ const BookingButtons = ({ handleBookNow, label = "BOOK NOW" }) => (
       {label}
     </button>
     <a
-      href="tel:03333440036"
+      href="tel:+447856423532"
       className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2.5 bg-white text-gray-900 border-2 border-gray-300 rounded-lg hover:bg-gray-50 transition-colors font-semibold text-sm"
     >
       <PhoneIcon />
-      0333 344 0036
+      +44 7856 423532
     </a>
   </div>
 );
@@ -214,11 +214,11 @@ const apiId = COURSE_API_IDS[id] || id;
               </svg>
             </button>
             <a
-              href="tel:03333440036"
+              href="tel:+447856423532"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2.5 bg-white text-gray-900 border-2 border-gray-300 rounded-lg hover:bg-gray-50 transition-colors font-semibold text-sm"
             >
               <PhoneIcon />
-              0333 344 0036
+              +44 7856 423532
             </a>
           </div>
         </div>
@@ -1279,11 +1279,11 @@ const apiId = COURSE_API_IDS[id] || id;
                 </button>
 
                 <a
-                  href="tel:03333440036"
+                  href="tel:+447856423532"
                   className="w-full flex items-center justify-center gap-2 bg-gray-100 text-gray-900 py-2.5 px-6 rounded-lg hover:bg-gray-200 transition-colors font-semibold mb-3 text-sm"
                 >
                   <PhoneIcon />
-                  0333 344 0036
+                  +44 7856 423532
                 </a>
 
                 <div className="text-center text-xs sm:text-sm text-gray-600 space-y-1.5 pt-3 border-t">
@@ -1313,7 +1313,7 @@ const apiId = COURSE_API_IDS[id] || id;
                   dedicated sessions for your team.
                 </p>
                 <a
-                  href="tel:03333440036"
+                  href="tel:+447856423532"
                   className="flex items-center justify-center gap-2 w-full text-center bg-white text-blue-600 py-2.5 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-sm"
                 >
                   <PhoneIcon />

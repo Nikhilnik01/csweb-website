@@ -214,7 +214,7 @@ const CoursesPage = () => {
 
           <div className="flex justify-center">
             <a
-              href="tel:03333440036"
+              href="tel:+447856423532"
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold px-4 py-1.5 rounded-lg transition-colors"
             >
               <svg
@@ -230,7 +230,7 @@ const CoursesPage = () => {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              Call 0333 344 0036
+              Call +44 7856 423532
             </a>
           </div>
         </div>
@@ -259,10 +259,10 @@ const CoursesPage = () => {
               No courses available at the moment.
             </p>
             <a
-              href="tel:03333440036"
+              href="tel:+447856423532"
               className="mt-4 inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold"
             >
-              Call 0333 344 0036
+              Call +44 7856 423532
             </a>
           </div>
         )}

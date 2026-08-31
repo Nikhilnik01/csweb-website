@@ -83,7 +83,7 @@ export const staticCourses = [
           "Staff complete training around work schedule",
         ],
         benefit:
-          "Bulk bookings available — call 0333 344 0036 for company rates.",
+          "Bulk bookings available — call +44 7856 423532 for company rates.",
       },
     ],
     nextSteps: [
@@ -98,7 +98,7 @@ export const staticCourses = [
         "Get qualified today and start working on construction sites across the UK.",
       options: [
         "Online: Click BOOK NOW to get instant access",
-        "Phone: Call 0333 344 0036",
+        "Phone: Call +44 7856 423532",
         "Groups: Contact us for company bulk booking rates",
       ],
     },
@@ -182,13 +182,13 @@ export const staticCourses = [
       intro: "Ready to qualify as a construction site supervisor?",
       options: [
         "Online: Click BOOK NOW to view dates and secure your place",
-        "Phone: Call 0333 344 0036",
+        "Phone: Call +44 7856 423532",
         "Groups: Contact us for company training packages",
       ],
       note: "Bookings outside office hours confirmed next working day.",
     },
     companyTraining:
-      "Training multiple supervisors? We offer competitive rates for bulk bookings and can arrange dedicated courses for your team. Call 0333 344 0036 to discuss company training.",
+      "Training multiple supervisors? We offer competitive rates for bulk bookings and can arrange dedicated courses for your team. Call +44 7856 423532 to discuss company training.",
     ctaTagline: "Become a qualified site supervisor in just 2 days.",
     validity: "5 years",
   },
@@ -244,12 +244,12 @@ export const staticCourses = [
         "Don't let your qualification expire. Book your refresher at least one month before your certificate expires.",
       options: [
         "Online: Click BOOK REFRESHER for available dates",
-        "Phone: Call 0333 344 0036",
+        "Phone: Call +44 7856 423532",
         "Groups: Contact us for company refresher training",
       ],
     },
     companyTraining:
-      "Training multiple supervisors? We offer bulk booking rates and can schedule dedicated refresher sessions for your team. Call 0333 344 0036 for company packages.",
+      "Training multiple supervisors? We offer bulk booking rates and can schedule dedicated refresher sessions for your team. Call +44 7856 423532 for company packages.",
     ctaTagline: "Renew in one day. Stay qualified for 5 years.",
     faqs: [
       {
@@ -414,13 +414,13 @@ export const staticCourses = [
       intro: "Ready to qualify as a construction site manager?",
       options: [
         "Online: Click BOOK NOW to view dates and delivery options",
-        "Phone: Call 0333 344 0036",
+        "Phone: Call +44 7856 423532",
         "Groups: Contact us for company training packages and bulk booking rates",
       ],
       note: "Payment plans available — spread the cost over 3 interest-free monthly installments.",
     },
     companyTraining:
-      "Training multiple managers? We offer in-house training tailored to your workplace, with flexible delivery options and competitive rates. Call 0333 344 0036 to discuss company SMSTS training.",
+      "Training multiple managers? We offer in-house training tailored to your workplace, with flexible delivery options and competitive rates. Call +44 7856 423532 to discuss company SMSTS training.",
     ctaTagline: "Become a qualified construction site manager in 5 days.",
     // faqs: [
     //   {
@@ -566,13 +566,13 @@ export const staticCourses = [
         "Don't let your site management qualification expire. Book your refresher at least one month before your certificate expires.",
       options: [
         "Online: Click BOOK REFRESHER for available dates",
-        "Phone: Call 0333 344 0036",
+        "Phone: Call +44 7856 423532",
         "Groups: Contact us for company refresher training packages",
       ],
       note: "Payment plans available — spread the cost over 3 interest-free installments.",
     },
     companyTraining:
-      "Renewing qualifications for multiple site managers? We offer competitive bulk booking rates and can arrange dedicated refresher courses for your team. Call 0333 344 0036 for company packages and in-house training options.",
+      "Renewing qualifications for multiple site managers? We offer competitive bulk booking rates and can arrange dedicated refresher courses for your team. Call +44 7856 423532 for company packages and in-house training options.",
     ctaTagline:
       "Renew in 2 days. Stay qualified for 5 years. Keep managing sites legally.",
     faqs: [
@@ -615,7 +615,7 @@ export const staticCourses = [
 
     cta: {
       primary: "BOOK NOW",
-      secondary: "Call 0333 344 0036",
+      secondary: "Call +44 7856 423532",
       tagline: "Get qualified today. Direct vehicles safely tomorrow.",
     },
 
@@ -752,7 +752,7 @@ Recent HSE figures show construction has the highest number of vehicle-related f
           "Flexible scheduling - choose times that suit your operations",
           "Train entire teams - get everyone qualified together",
         ],
-        note: "Call 0333 344 0036 for in-house training quotes and group bookings.",
+        note: "Call +44 7856 423532 for in-house training quotes and group bookings.",
       },
     ],
 
@@ -822,7 +822,7 @@ Recent HSE figures show construction has the highest number of vehicle-related f
         "Online: Click BOOK NOW",
         "Classroom: View available dates and locations",
         "In-house: Request a custom quote",
-        "Phone: Call Construction Customer Service on 0333 344 0036",
+        "Phone: Call Construction Customer Service on +44 7856 423532",
         "Groups: Contact us for bulk booking discounts",
       ],
     },
@@ -906,7 +906,7 @@ Recent HSE figures show construction has the highest number of vehicle-related f
       body: "Whether you're starting your construction career, stepping up to supervision, or managing entire sites, we have the training you need.",
       options: [
         "Book online",
-        "Call us on 0333 344 0036",
+        "Call us on +44 7856 423532",
         "Request a company training quote",
       ],
       tagline:

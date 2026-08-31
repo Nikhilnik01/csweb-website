@@ -201,10 +201,10 @@ const CscsCardDetail = () => {
 
                 {/* CALL */}
                 <a
-                  href="tel:+443333440036"
+                  href="tel:+447856423532"
                   className="flex items-center justify-center gap-2 border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-4 rounded-lg transition-colors"
                 >
-                  Call 0333 344 0036
+                  Call +44 7856 423532
                 </a>
               </div>
             </section>

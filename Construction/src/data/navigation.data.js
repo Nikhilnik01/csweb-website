@@ -288,7 +288,7 @@ export const NAV_ITEMS = [
 ];
 
 export const TOP_BAR = {
-  phone: "0333 344 0036",
+  phone: "+44 7856 423532",
   email: "admin@constructioncustomerservice.co.uk",
   socials: [
     { label: "Facebook", href: "#", icon: "facebook" },

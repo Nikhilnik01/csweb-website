@@ -543,7 +543,7 @@ const CARD_DETAIL_CONTENT = {
         },
         {
           title: "CITB Test Requirement",
-          desc: "You must pass the CITB Health, Safety and Environment Test at the level relevant to your occupation. The test must have been taken within the last 2 years before applying. Not sure which test level you need? Call 0333 344 0036 for guidance.",
+          desc: "You must pass the CITB Health, Safety and Environment Test at the level relevant to your occupation. The test must have been taken within the last 2 years before applying. Not sure which test level you need? Call +44 7856 423532 for guidance.",
         },
         {
           title: "Don't Have Full Qualifications Yet?",
@@ -766,7 +766,7 @@ const CARD_DETAIL_CONTENT = {
       items: [
         {
           title: "Academic Qualifications",
-          desc: "  You need certain construction-related degrees, HNDs (Higher National Diplomas), HNCs (Higher National Certificates), CIOB (Chartered Institute of Building) Certificates, or specific NEBOSH diplomas and certificates. Not all academic qualifications automatically qualify, Call us on 0333 344 0036 and we’ll be happy to help. ",
+          desc: "  You need certain construction-related degrees, HNDs (Higher National Diplomas), HNCs (Higher National Certificates), CIOB (Chartered Institute of Building) Certificates, or specific NEBOSH diplomas and certificates. Not all academic qualifications automatically qualify, Call us on +44 7856 423532 and we’ll be happy to help. ",
         },
         {
           title: "Test Requirements",
@@ -778,7 +778,7 @@ const CARD_DETAIL_CONTENT = {
     howToApply: {
       heading: "Getting Your Card",
       intro:
-        "Check whether your qualification is eligible by calling us to verify if it is accepted on 0333 344 0036 — simply speak to our team and we’ll guide you through the process. Book and pass either the CITB Managers and Professionals test or CIC test. Gather your academic qualification certificate plus evidence of the units or modules you completed within that qualification where possible.",
+        "Check whether your qualification is eligible by calling us to verify if it is accepted on +44 7856 423532 — simply speak to our team and we’ll guide you through the process. Book and pass either the CITB Managers and Professionals test or CIC test. Gather your academic qualification certificate plus evidence of the units or modules you completed within that qualification where possible.",
     },
 
     needs: {
@@ -1065,7 +1065,7 @@ const CARD_DETAIL_CONTENT = {
         },
         {
           title: "Test Requirements",
-          desc: "  Pass the appropriate level CITB Health, Safety and Environment Test within the last 2 years. For supervisory and management roles, this typically means the Specialist Supervisory test or Managers and Professionals test. Call us on 0333 344 0036 to confirm which test level matches your occupation and qualification pathway.",
+          desc: "  Pass the appropriate level CITB Health, Safety and Environment Test within the last 2 years. For supervisory and management roles, this typically means the Specialist Supervisory test or Managers and Professionals test. Call us on +44 7856 423532 to confirm which test level matches your occupation and qualification pathway.",
         },
       ],
     },
@@ -1073,7 +1073,7 @@ const CARD_DETAIL_CONTENT = {
     howToApply: {
       heading: "Getting Your Card",
       intro:
-        "Book and pass the correct CITB Health, Safety and Environment Test for your role - Call us 0on 0333 344 0036 to confirm if unsure which level applies. Obtain registration confirmation from your training provider showing you're enrolled on an approved TSM NVQ/SVQ Level 3 or higher.",
+        "Book and pass the correct CITB Health, Safety and Environment Test for your role - Call us 0on +44 7856 423532 to confirm if unsure which level applies. Obtain registration confirmation from your training provider showing you're enrolled on an approved TSM NVQ/SVQ Level 3 or higher.",
     },
 
     needs: {

@@ -8,7 +8,7 @@ export const nvqOverview = {
     "Construction Customer Service provides comprehensive NVQ training and assessments for construction professionals from Level 2 to Level 7. Complete your qualification on-site while you work - no classroom time, no written exams, just evidence-based assessments that prove your competence.",
     "Get your NVQ qualification in 6-8 weeks with our 100% pass rate guarantee.",
   ],
-  cta1: "BOOK NOW or call 0333 344 0036",
+  cta1: "BOOK NOW or call +44 7856 423532",
 
   whatIsIt: [
     "A National Vocational Qualification (NVQ) is a work-based qualification that's greatly favoured in the construction industry. NVQs assess your skills and competence in a real construction environment - proving you can do your job to industry standards, not just that you've passed a written exam.",
@@ -144,7 +144,7 @@ export const nvqOverview = {
   ],
 
   processTimeframe: "Average timeframe: 6-8 weeks",
-  cta2: "START YOUR NVQ or call 0333 344 0036",
+  cta2: "START YOUR NVQ or call +44 7856 423532",
 };
 
 // ================= LEVEL 2 PAGE =================
@@ -203,7 +203,7 @@ export const nvqLevel2 = {
       },
 
       card: "Complete this NVQ Level 2 Painting & Decorating and apply for your Blue CSCS Skilled Worker Card.",
-      cta: "BOOK PAINTING & DECORATING NVQ or call 0333 344 0036",
+      cta: "BOOK PAINTING & DECORATING NVQ or call +44 7856 423532",
     },
     {
       title: "NVQ Level 2 Site Carpentry",
@@ -248,7 +248,7 @@ export const nvqLevel2 = {
       },
 
       card: "Complete this NVQ Level 2 Site Carpentry and qualify for your Blue CSCS Skilled Worker Card.",
-      cta: "BOOK SITE CARPENTRY NVQ or call 0333 344 0036",
+      cta: "BOOK SITE CARPENTRY NVQ or call +44 7856 423532",
     },
     {
       title: "NVQ Level 2 Groundworking",
@@ -294,7 +294,7 @@ export const nvqLevel2 = {
       },
 
       card: "Complete this NVQ Level 2 Groundworking and apply for your Blue CSCS Skilled Worker Card.",
-      cta: "BOOK GROUNDWORKING NVQ or call 0333 344 0036",
+      cta: "BOOK GROUNDWORKING NVQ or call +44 7856 423532",
     },
     {
       title: "NVQ Level 2 Steelfixing",
@@ -340,7 +340,7 @@ export const nvqLevel2 = {
       },
 
       card: "Complete this NVQ Level 2 Steelfixing and qualify for your Blue CSCS Skilled Worker Card.",
-      cta: "BOOK STEELFIXING NVQ or call 0333 344 0036",
+      cta: "BOOK STEELFIXING NVQ or call +44 7856 423532",
     },
     {
       title: "NVQ Level 2 Passive Fire Protection",
@@ -385,7 +385,7 @@ export const nvqLevel2 = {
       },
 
       card: "Complete this NVQ Level 2 Passive Fire Protection and apply for your Blue CSCS Skilled Worker Card.",
-      cta: "BOOK PASSIVE FIRE PROTECTION NVQ or call 0333 344 0036",
+      cta: "BOOK PASSIVE FIRE PROTECTION NVQ or call +44 7856 423532",
     },
     {
       title: "NVQ Level 2 Dry Lining Fixing",
@@ -431,7 +431,7 @@ export const nvqLevel2 = {
       },
 
       card: "Complete this NVQ Level 2 Dry Lining Fixing and qualify for your Blue CSCS Skilled Worker Card.",
-      cta: "BOOK DRY LINING FIXING NVQ or call 0333 344 0036",
+      cta: "BOOK DRY LINING FIXING NVQ or call +44 7856 423532",
     },
     {
       title: "NVQ Level 2 Dry Lining Finishing",
@@ -477,7 +477,7 @@ export const nvqLevel2 = {
       },
 
       card: "Complete this NVQ Level 2 Dry Lining Finishing and apply for your Blue CSCS Skilled Worker Card.",
-      cta: "BOOK DRY LINING FINISHING NVQ or call 0333 344 0036",
+      cta: "BOOK DRY LINING FINISHING NVQ or call +44 7856 423532",
     },
     {
       title: "NVQ Level 2 Formwork",
@@ -523,7 +523,7 @@ export const nvqLevel2 = {
       },
 
       card: "Complete this NVQ Level 2 Formwork and qualify for your Blue CSCS Skilled Worker Card.",
-      cta: "BOOK FORMWORK NVQ or call 0333 344 0036",
+      cta: "BOOK FORMWORK NVQ or call +44 7856 423532",
     },
   ],
 
@@ -538,7 +538,7 @@ export const nvqLevel2 = {
     "5. Apply for your Blue CSCS Skilled Worker Card",
     "6. Access better-paid roles across UK construction sites",
   ],
-  cta: "BOOK YOUR NVQ NOW or call Construction Customer Service on 0333 344 0036",
+  cta: "BOOK YOUR NVQ NOW or call Construction Customer Service on +44 7856 423532",
   tagline: "Get qualified. Get your Blue Card. Get better opportunities.",
 
   careerSection: "Why NVQs Matter For Your Career",
@@ -603,7 +603,7 @@ export const nvqLevel2 = {
   bookingIntro:
     "Don't wait to get qualified. Without your NVQ, you can't get your CSCS card. Without your card, you're limited in where you can work and how much you can earn.",
   bookingText: "Start your NVQ today:",
-  bookingCta: "BOOK NOW or call Construction Customer Service on 0333 344 0036",
+  bookingCta: "BOOK NOW or call Construction Customer Service on +44 7856 423532",
   // bookingFeatures: [
   //   "Available NVQ Levels: 2, 3, 4, 6, 7",
   //   "Completion Time: 6-8 weeks average",
@@ -623,7 +623,7 @@ export const nvqLevel3 = {
     "The NVQ Level 3 in Occupational Work Supervision is designed for experienced tradespeople stepping up to supervise teams. This qualification proves you're not just good at your trade - you can manage people, coordinate work, and run operations on-site.",
     "If you're already leading a team without formal recognition, this NVQ makes it official.",
   ],
-  cta1: "BOOK NOW or call 0333 344 0036",
+  cta1: "BOOK NOW or call +44 7856 423532",
 
   whoSection: "Who This NVQ Is For",
   whoIntro:
@@ -769,7 +769,7 @@ export const nvqLevel3 = {
     "Professional membership - CIOB, RICS (at higher levels)",
   ],
 
-  cta2: "START YOUR SUPERVISORY NVQ or call 0333 344 0036",
+  cta2: "START YOUR SUPERVISORY NVQ or call +44 7856 423532",
   tagline: "Lead with confidence. Get qualified. Get your Gold Card.",
 };
 
@@ -782,7 +782,7 @@ export const nvqLevel4 = {
     "The NVQ Level 4 in Construction Site Supervision bridges the gap between hands-on supervision and full site management. You're coordinating multiple activities, liaising with management, and taking responsibility for significant aspects of site operations.",
     "For assistant site managers and supervisors ready to prove their capabilities.",
   ],
-  cta1: "BOOK NOW or call 0333 344 0036",
+  cta1: "BOOK NOW or call +44 7856 423532",
 
   whoSection: "Who This Qualification Is For",
   whoIntro:
@@ -967,7 +967,7 @@ export const nvqLevel4 = {
     "If you're still reporting to a site manager and implementing their plans, stick with Level 4. If you're running the site yourself with full authority, go for Level 6.",
   ],
 
-  cta2: "BOOK LEVEL 4 SITE SUPERVISION or call 0333 344 0036",
+  cta2: "BOOK LEVEL 4 SITE SUPERVISION or call +44 7856 423532",
   tagline: "Bridge the gap. Prove your capability. Progress your career.",
 };
 
@@ -982,7 +982,7 @@ export const nvqLevel7 = {
     "The NVQ Level 7 in Construction Senior Management is the pinnacle qualification for construction leaders. This isn't for site managers - it's for those directing entire operations, managing multiple projects, setting organizational strategy, and making high-level commercial decisions.",
     "Equivalent to a Master's degree. For senior managers and directors only.",
   ],
-  cta1: "BOOK NOW or call 0333 344 0036",
+  cta1: "BOOK NOW or call +44 7856 423532",
 
   whoSection: "Who This NVQ Is For",
   whoIntro:
@@ -1288,7 +1288,7 @@ export const nvqLevel7 = {
     "6. Apply for Black CSCS Manager Card",
     "7. Consider MCIOB application route",
   ],
-  cta2: "CONTACT US NOW or call 0333 344 0036",
+  cta2: "CONTACT US NOW or call +44 7856 423532",
   tagline: "Lead strategically. Get recognized. Reach the top.",
   footer:
     "Construction Customer Service - Helping senior managers get the recognition they deserve.",

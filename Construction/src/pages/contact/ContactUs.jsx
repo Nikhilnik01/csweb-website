@@ -61,10 +61,10 @@ const ContactUs = () => {
       heading: "Phone Support",
       detail: (
         <a
-          href="tel:03333440036"
+          href="tel:+447856423532"
           className="text-blue-600 font-semibold hover:underline text-lg"
         >
-          0333 344 0036
+          +44 7856 423532
         </a>
       ),
       sub: "Mon–Sat 9am–6pm",
@@ -176,7 +176,7 @@ const ContactUs = () => {
 
             {/* WhatsApp */}
             <a
-              href="https://wa.me/03333440036"
+              href="https://wa.me/447856423532"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-green-50 border border-green-200 rounded-xl p-4 hover:bg-green-100 transition-colors"
@@ -227,10 +227,10 @@ const ContactUs = () => {
                   Thank you for getting in touch. We aim to respond within 24
                   hours. For urgent queries call{" "}
                   <a
-                    href="tel:03333440036"
+                    href="tel:+447856423532"
                     className="font-semibold hover:underline"
                   >
-                    0333 344 0036
+                    +44 7856 423532
                   </a>
                   .
                 </p>

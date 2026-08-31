@@ -92,7 +92,7 @@ const handleNext = () => {
     <>
       <SeoHead
         title="CPCS Card Renewal & Extension Guide | Construction Customer Service"
-        description="Need to renew your CPCS Blue Competent Operator Card or extend your Red Trained Operator Card? Construction Customer Service provides expert guidance across the UK. Call 0333 344 0036 today."
+        description="Need to renew your CPCS Blue Competent Operator Card or extend your Red Trained Operator Card? Construction Customer Service provides expert guidance across the UK. Call +44 7856 423532 today."
         keywords="CPCS, card renewal, extension, operator, blue card, red card, construction"
       />
 
@@ -119,8 +119,8 @@ const handleNext = () => {
             Need to renew your CPCS Blue Competent Operator Card or extend your
             Red Trained Operator Card? Construction Customer Service provides
             expert guidance across the UK. Call{" "}
-            <a href="tel:03333440036" className="text-blue-600 hover:underline">
-              0333 344 0036
+            <a href="tel:+447856423532" className="text-blue-600 hover:underline">
+              +44 7856 423532
             </a>{" "}
             today.
           </p>
@@ -286,10 +286,10 @@ const handleNext = () => {
                   where you stand or what to book first, call Construction
                   Customer Service on{" "}
                   <a
-                    href="tel:03333440036"
+                    href="tel:+447856423532"
                     className="text-blue-600 hover:underline"
                   >
-                    0333 344 0036
+                    +44 7856 423532
                   </a>
                   .
                 </p>
@@ -345,10 +345,10 @@ const handleNext = () => {
                   must be taken at an accredited CPCS test centre. This route
                   requires careful planning. Call us on{" "}
                   <a
-                    href="tel:03333440036"
+                    href="tel:+447856423532"
                     className="text-blue-600 hover:underline"
                   >
-                    0333 344 0036
+                    +44 7856 423532
                   </a>{" "}
                   before you book anything.
                 </p>
@@ -412,10 +412,10 @@ const handleNext = () => {
                   If you need help getting registered for your NVQ, call
                   Construction Customer Service on{" "}
                   <a
-                    href="tel:03333440036"
+                    href="tel:+447856423532"
                     className="text-blue-600 hover:underline"
                   >
-                    0333 344 0036
+                    +44 7856 423532
                   </a>{" "}
                   and we will advise you.
                 </p>
@@ -476,10 +476,10 @@ const handleNext = () => {
                   critical on this route. Before you book anything, speak to our
                   team on{" "}
                   <a
-                    href="tel:03333440036"
+                    href="tel:+447856423532"
                     className="text-blue-600 hover:underline"
                   >
-                    0333 344 0036
+                    +44 7856 423532
                   </a>{" "}
                   so we can walk you through the correct sequence.
                 </p>
@@ -840,7 +840,7 @@ const handleNext = () => {
               },
               {
                 q: "My Blue Card expired two years ago. Is it too late to renew?",
-                a: "No. Cards expired within five years can still be renewed through the standard route. Act now though — do not leave it any longer. Call 0333 344 0036 and we will walk you through what you need.",
+                a: "No. Cards expired within five years can still be renewed through the standard route. Act now though — do not leave it any longer. Call +44 7856 423532 and we will walk you through what you need.",
               },
               {
                 q: "My Red Card expired 18 months ago. What are my options?",
@@ -900,10 +900,10 @@ const handleNext = () => {
                   </p>
 
                   <a
-                    href="tel:03333440036"
+                    href="tel:+447856423532"
                     className="block text-2xl sm:text-3xl font-bold text-blue-600 hover:text-blue-700 transition mb-3"
                   >
-                    0333 344 0036
+                    +44 7856 423532
                   </a>
 
                   <p className="text-xs sm:text-sm text-gray-600 leading-relaxed max-w-md mx-auto">

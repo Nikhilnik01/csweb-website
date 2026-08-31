@@ -44,7 +44,7 @@ const BookCITBTest = ({ id, data }) => {
                 "Fill in the booking form and choose your date and test centre from over 150 approved locations across the UK",
                 {
                   text: "Complete your CITB test booking and pay online with any major debit or credit card, or contact us on ",
-                  phone: "0333 344 0036",
+                  phone: "+44 7856 423532",
                   isPhone: true,
                 },
                 "Once booked and paid, receive your test joining instructions via email with date, time, center address, and directions",
@@ -58,7 +58,7 @@ const BookCITBTest = ({ id, data }) => {
                       <>
                         {item.text}
                         <a
-                          href="tel:03333440036"
+                          href="tel:+447856423532"
                           className="text-blue-600 hover:text-blue-800 font-semibold underline"
                         >
                           {item.phone}
