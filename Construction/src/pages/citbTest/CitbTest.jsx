@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CitbTestForm from "../../forms/citbTestForm/CitbTestForm";
+import SeoHead from "../../components/common/SeoHead";
 import TestDetails from "../../forms/citbTestForm/TestDetails";
 import StripeCheckout from "../../components/payment/StripeCheckout";
 import BookingSummary from "../../forms/citbTestForm/BookingSummary";
@@ -71,6 +72,11 @@ const CitbTest = () => {
 
   return (
     <>
+      <SeoHead
+        title="Book Your CITB Health & Safety Environment Test (CITB Touch Screen Test)"
+        description="Book CSCS Cards with CITB (CITB Health & Safety Environment Test ) to apply for your CSCS Card."
+        keywords="CITB test booking, book CITB test, touch screen test, health and safety test, CSCS card application"
+      />
       {/* ── Page Header (Slim & Responsive) ── */}
       <div
         className="

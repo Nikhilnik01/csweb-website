@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { WHICH_TEST_PAGE } from "../../data/whichTest.data";
+import SeoHead from "../../components/common/SeoHead";
 
 const colorMap = {
   pink: {
@@ -84,6 +85,11 @@ const WhichTest = () => {
 
   return (
     <>
+      <SeoHead
+        title="Which CITB Test Do I Need? | Touch Screen Test Guide"
+        description="Not sure which CITB Health, Safety & Environment test to take? Use our guide to find the correct test based on your trade and required card."
+        keywords="which CITB test, touch screen test selector, CSCS card requirements, construction test guide"
+      />
       {/* Breadcrumb */}
       <div className="bg-gray-100 py-2.5 border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4">

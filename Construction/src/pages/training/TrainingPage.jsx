@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 import { NVQ_LEVELS } from "../../data/training.data";
+import SeoHead from "../../components/common/SeoHead";
 
 const TrainingPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
+      <SeoHead
+        title="Construction NVQ Qualifications – Get Qualified On-Site | Construction Customer Service"
+        description="Complete your NVQ on-site while you work. No classroom time, no written exams, just evidence-based assessment that proves your competence."
+        keywords="NVQ qualifications, construction NVQ, CSCS gold card, CSCS black card, NVQ Level 2, NVQ Level 3, NVQ Level 6, NVQ Level 7"
+      />
       <div className="mx-auto max-w-6xl px-4 py-5 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="mb-5 rounded-2xl border border-blue-100 bg-white p-5 shadow-sm">

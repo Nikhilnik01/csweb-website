@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://www.constructioncustomerservice.co.uk/sitemap.xml
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://csweb.anmoluphaar.in/sitemap.xml

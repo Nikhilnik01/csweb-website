@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import SeoHead from "../../components/common/SeoHead";
 import { getCPCSModules, getCPCSRenewalPrices } from "../../services/api";
 
 const CpcsCard = () => {
@@ -90,19 +90,11 @@ const handleNext = () => {
 
   return (
     <>
-      <Helmet>
-        <title>
-          CPCS Card Renewal & Extension Guide | Construction Customer Service
-        </title>
-        <meta
-          name="description"
-          content="Need to renew your CPCS Blue Competent Operator Card or extend your Red Trained Operator Card? Construction Customer Service provides expert guidance across the UK. Call 0333 344 0036 today."
-        />
-        <meta
-          name="keywords"
-          content="CPCS, card renewal, extension, operator, blue card, red card, construction"
-        />
-      </Helmet>
+      <SeoHead
+        title="CPCS Card Renewal & Extension Guide | Construction Customer Service"
+        description="Need to renew your CPCS Blue Competent Operator Card or extend your Red Trained Operator Card? Construction Customer Service provides expert guidance across the UK. Call 0333 344 0036 today."
+        keywords="CPCS, card renewal, extension, operator, blue card, red card, construction"
+      />
 
       {/* Breadcrumb */}
       <div className="bg-gray-100 py-3 border-b border-gray-200">

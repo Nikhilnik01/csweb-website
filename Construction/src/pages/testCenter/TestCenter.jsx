@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { getActiveTestCenters } from "../../data/testCenters.data";
+import SeoHead from "../../components/common/SeoHead";
 
 const TestCenter = () => {
   const [search, setSearch] = useState("");
@@ -14,6 +15,11 @@ const TestCenter = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SeoHead
+        title="CITB Test Centres | Find Nearest CSCS Test Center UK"
+        description="Search and find your nearest CITB test centre in the UK. We have over 150 approved centres for Health, Safety & Environment tests."
+        keywords="CITB test center, find CSCS test location, UK CITB test centres"
+      />
       <section className="bg-gradient-to-br from-[#1a3a4a] to-[#2d5f7c] text-white py-14">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-3xl sm:text-4xl font-bold mb-3">

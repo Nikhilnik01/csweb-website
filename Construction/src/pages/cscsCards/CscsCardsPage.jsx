@@ -4,6 +4,7 @@ import KlarnaBanner from "../../components/sections/KlarnaBanner";
 import { getCSCSCards } from "../../services/api";
 import { mergeApiCardsWithStatic } from "../../utils/cscsCardsApi";
 import { useNavigationData } from "../../context/NavigationDataContext";
+import SeoHead from "../../components/common/SeoHead";
 
 // ── Card image mapping from cscsCards.data.js (slug → correct image) ─────────
 // Green Card  → /images/cscs-cards/1.webp
@@ -265,6 +266,11 @@ const CSCSCardsPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SeoHead
+        title="Choose Your CSCS Card Test as per your required field | Construction Customer Service"
+        description="We arrange cscs cards and citb test for your required field across UK. If you have requirement any cscs cards just call us: 0203 930 9758"
+        keywords="CSCS cards, apply CSCS card, green card, blue card, gold card, black card, construction card"
+      />
       {/* ── Header */}
       <div className="relative overflow-hidden shadow-md bg-[#f5f7ff] md:bg-[url('/images/page-header-bg-shape.png')] md:bg-cover md:bg-center">
         <div className="absolute inset-0 z-0 bg-white/80 bg-gradient-to-r from-[#f1f3ff]/70 via-[#f4fef3]/70 to-[#fff3fc]/70"></div>

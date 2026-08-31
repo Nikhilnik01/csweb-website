@@ -301,6 +301,11 @@ const BulkTestBooking = () => {
 
   return (
     <>
+      <SeoHead
+        title="CITB Bulk & Group Test Booking | Construction Customer Service"
+        description="Book multiple CITB Health, Safety & Environment Tests for your workers. Group booking and corporate packages across the UK."
+        keywords="bulk CITB test, group booking, corporate CITB tests, construction group tests, CSCS cards"
+      />
       {/* Page Header */}
       <div className="relative overflow-hidden shadow-md bg-[#f5f7ff] md:bg-[url('/images/page-header-bg-shape.png')] md:bg-cover md:bg-center">
         <div className="absolute inset-0 z-0 bg-white/80 bg-gradient-to-r from-[#f1f3ff]/70 via-[#f4fef3]/70 to-[#fff3fc]/70"></div>

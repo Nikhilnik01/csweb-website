@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import KlarnaBanner from '../../components/sections/KlarnaBanner';
+import SeoHead from '../../components/common/SeoHead';
 
 const Faqs = () => {
 
@@ -25,6 +26,11 @@ const Faqs = () => {
 
     return (
         <>
+            <SeoHead
+                title="Frequently Asked Questions | Construction Customer Service"
+                description="Find answers to common questions about CITB tests, CSCS cards, course bookings, renewals, and refunds."
+                keywords="CSCS FAQ, CITB FAQ, construction card questions, help, support"
+            />
             {/* header */}
             <div
                 className="relative overflow-hidden text-white"

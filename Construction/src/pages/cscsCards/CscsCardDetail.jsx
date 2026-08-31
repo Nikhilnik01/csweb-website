@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useNavigationData } from "../../context/NavigationDataContext";
 import { mergeApiCardWithStatic } from "../../utils/cscsCardsApi";
+import SeoHead from "../../components/common/SeoHead";
 
 const CheckIcon = () => (
   <svg
@@ -105,6 +106,11 @@ const CscsCardDetail = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SeoHead
+        title={`${card.title} Application & Requirements | Construction Customer Service`}
+        description={`Apply for your ${card.title}. Find out the qualifications, test requirements, validity, and cost of the ${card.title} online.`}
+        keywords={`${card.title}, CSCS card, apply online, qualifications, requirements, health and safety test`}
+      />
       {/* Breadcrumb */}
       <div className="bg-white border-b border-gray-200 py-2.5 px-4">
         <div className="max-w-6xl mx-auto text-sm text-gray-500 flex items-center gap-2">

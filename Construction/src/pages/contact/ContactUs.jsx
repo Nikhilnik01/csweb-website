@@ -133,13 +133,9 @@ const ContactUs = () => {
   return (
     <>
       <SeoHead
-        title="Contact Us – Construction Customer Service"
-        description="Get in touch with our team for help with CSCS cards, CITB tests, NVQ training or construction courses. Call 0333 344 0036 or email us."
-      />
-
-      <SeoHead
-        title="Contact Us – Construction Customer Service"
-        description="Get in touch with our team for help with CSCS cards, CITB tests, NVQ training or construction courses. Call 0333 344 0036 or email us."
+        title="Contact Us For Construction Health & Safety Test Booking Service - 0203 930 9758"
+        description="We help to arrange construction cards, citb test in across UK for construction industries."
+        keywords="contact, CSCS card contact, CITB booking phone, contact construction customer service"
       />
 
       {/* ── Page Header ── */}

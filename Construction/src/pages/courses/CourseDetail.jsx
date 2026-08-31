@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useNavigationData } from "../../context/NavigationDataContext";
+import SeoHead from "../../components/common/SeoHead";
 import {
   mergeApiCourseWithStatic,
   extractCourseFromResponse,
@@ -140,6 +141,11 @@ const apiId = COURSE_API_IDS[id] || id;
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SeoHead
+        title={`${course.title} Training Course | Construction Customer Service`}
+        description={`Book your ${course.title} training. View course details, availability, duration, and prices. Online and classroom options available.`}
+        keywords={`${course.title}, construction course, course booking, CITB course, SMSTS, SSSTS`}
+      />
       {/* ── Header ── */}
       <div className="bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">

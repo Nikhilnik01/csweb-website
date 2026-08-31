@@ -1,5 +1,6 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { getNvqById } from "../../data/training.data";
+import SeoHead from "../../components/common/SeoHead";
 import {
   nvqOverview,
   nvqLevel2,
@@ -1344,6 +1345,15 @@ const TrainingDetail = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SeoHead
+        title={`${training?.title || "NVQ Construction Qualifications"} | Construction Customer Service`}
+        description={
+          training
+            ? `Get your ${training.title} on-site while you work. Learn about qualifications, assessment process, CSCS card routes, and how to apply.`
+            : "Complete your construction NVQ qualifications on-site. Explore NVQ Level 2, Level 3, Level 4, and Level 7 assessment routes."
+        }
+        keywords={`NVQ, ${training?.title || "construction qualifications"}, CSCS card, assessment, apply online`}
+      />
       {/* Breadcrumb */}
       <div className="border-b border-gray-200 bg-white">
         <div className="mx-auto max-w-7xl px-4 py-3 text-sm text-gray-500 sm:px-6">

@@ -9,26 +9,17 @@ import BookCITBTest from "../../components/sections/BookCITBTest";
 import GreenCardApplication from "../../components/sections/GreenCardApplication";
 import KlarnaBanner from "../../components/sections/KlarnaBanner";
 import WhatsAppCallButtons from "../../components/sections/WhatsAppCallButtons";
-import { Helmet } from "react-helmet-async";
+import SeoHead from "../../components/common/SeoHead";
 import Blog from "../courses/Blog";
 
 const Home = () => {
   return (
     <>
-      <Helmet>
-        <title>
-          CITB Test Booking | CSCS Card Application - Construction Customer
-          Service
-        </title>
-        <meta
-          name="description"
-          content="Book your CITB Health, Safety & Environment Test online. Apply for CSCS Cards with over 150 approved test centres across the UK. Fast, secure booking available."
-        />
-        <meta
-          name="keywords"
-          content="CITB test booking, CSCS card application, construction safety test, health and safety test, CITB test centres UK"
-        />
-      </Helmet>
+      <SeoHead
+        title="Book Construction Card, Construction Test Online, CITB Health & Safety Test - Constructioncustomerservice.co.uk"
+        description="Book your Construction card, Construction test, citb health safety & environment test with constructioncustomerservice.co.uk to get a right Construction Card"
+        keywords="CITB test booking, CSCS card application, construction safety test, health and safety test, CITB test centres UK"
+      />
 
       <main className="flex-1">
         <HeroSection id="home" />

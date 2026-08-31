@@ -1,10 +1,16 @@
 // src/pages/terms/Terms.jsx
 
 import React from "react";
+import SeoHead from "../../components/common/SeoHead";
 
 const Terms = () => {
   return (
     <>
+      <SeoHead
+        title="Terms & Conditions | Construction Customer Service"
+        description="Read the terms and conditions for booking CITB tests, CSCS cards, and construction training through Construction Customer Service."
+        keywords="terms and conditions, booking terms, construction customer service terms"
+      />
       {/* ── Page Header (Slim & Responsive) ── */}
       <div className="relative overflow-hidden shadow-md bg-[#f5f7ff] md:bg-[url('/images/page-header-bg-shape.png')] md:bg-cover md:bg-center">
         {/* Background Overlays */}

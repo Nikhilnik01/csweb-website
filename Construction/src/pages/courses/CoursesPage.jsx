@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import KlarnaBanner from "../../components/sections/KlarnaBanner";
+import SeoHead from "../../components/common/SeoHead";
 import { staticCourses } from "../../components/course-list/courseData";
 import { getAllCourses } from "../../services/api";
 import { useNavigationData } from "../../context/NavigationDataContext";
@@ -181,6 +182,11 @@ const CoursesPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SeoHead
+        title="Construction Customer Service | Courses & Safety Training"
+        description="Construction Customer Service company provide Like- CSCS Health & Safety Environment Test, CITB Health & Safety Environment Test, SSSTS, SMSTS."
+        keywords="construction courses, SSSTS, SMSTS, safety training, CSCS green card course"
+      />
       {/* ── Page Header (2-Line Content) ── */}
       <div className="relative overflow-hidden shadow-md bg-[#f5f7ff] md:bg-[url('/images/page-header-bg-shape.png')] md:bg-cover md:bg-center">
         {/* Background Overlays */}
