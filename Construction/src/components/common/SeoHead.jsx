@@ -11,7 +11,7 @@ const SeoHead = ({
   ogImage = "/images/logo.png",
 }) => {
   const location = useLocation();
-  const siteUrl = "https://www.constructioncustomerservice.co.uk";
+  const siteUrl = "https://constructioncustomerservice.co.uk";
   
   // Automatically build production canonical link if none is provided
   const canonicalUrl = canonical || `${siteUrl}${location.pathname === "/" ? "" : location.pathname}`;
