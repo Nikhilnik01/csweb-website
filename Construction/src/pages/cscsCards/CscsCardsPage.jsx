@@ -267,8 +267,8 @@ const CSCSCardsPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <SeoHead
-        title="Choose Your CSCS Card Test as per your required field | Construction Customer Service"
-        description="We arrange cscs cards and citb test for your required field across UK. If you have requirement any cscs cards just call us: 0203 930 9758"
+        title="Choose Your CSCS Card Test as per your required field"
+        description="We arrange cscs cards and citb test for your required field across UK.If you have requirment any cscs cards just call us: 0203 930 9758"
         keywords="CSCS cards, apply CSCS card, green card, blue card, gold card, black card, construction card"
       />
       {/* ── Header */}

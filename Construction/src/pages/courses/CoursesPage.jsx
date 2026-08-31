@@ -183,8 +183,8 @@ const CoursesPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <SeoHead
-        title="Construction Customer Service | Courses & Safety Training"
-        description="Construction Customer Service company provide Like- CSCS Health & Safety Environment Test, CITB Health & Safety Environment Test, SSSTS, SMSTS."
+        title="Construction Customer Service | Courses"
+        description="Construction Customer Service company provide Like- CSCS Health & Safety Environment Test, CITB Health & Safety Environment Test"
         keywords="construction courses, SSSTS, SMSTS, safety training, CSCS green card course"
       />
       {/* ── Page Header (2-Line Content) ── */}
