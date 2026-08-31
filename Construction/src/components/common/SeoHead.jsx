@@ -1,6 +1,7 @@
 // src/components/common/SeoHead.jsx
 
 import { Helmet } from "react-helmet-async";
+import { useLocation } from "react-router-dom";
 
 const SeoHead = ({
   title = "Construction Customer Service – CSCS Cards, CITB Tests & Training",
@@ -9,6 +10,12 @@ const SeoHead = ({
   canonical = "",
   ogImage = "/images/logo.png",
 }) => {
+  const location = useLocation();
+  const siteUrl = "https://www.constructioncustomerservice.co.uk";
+  
+  // Automatically build production canonical link if none is provided
+  const canonicalUrl = canonical || `${siteUrl}${location.pathname === "/" ? "" : location.pathname}`;
+
   return (
     <Helmet>
       <title>{title}</title>
@@ -20,6 +27,7 @@ const SeoHead = ({
       <meta property="og:description" content={description} />
       <meta property="og:image" content={ogImage} />
       <meta property="og:type" content="website" />
+      <meta property="og:url" content={canonicalUrl} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -27,8 +35,8 @@ const SeoHead = ({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
 
-      {/* Canonical */}
-      {canonical && <link rel="canonical" href={canonical} />}
+      {/* Canonical Link */}
+      <link rel="canonical" href={canonicalUrl} />
     </Helmet>
   );
 };
